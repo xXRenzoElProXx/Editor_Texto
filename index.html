@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="editor-container">
+        <div class="toolbar">
+            <select id="fontFamily" class="toolbar-item">
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Helvetica">Helvetica</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Trebuchet MS">Trebuchet MS</option>
+                <option value="Lucida Sans">Lucida Sans</option>
+            </select>
+            <select id="fontSize" class="toolbar-item">
+                <option value="10px">10px</option>
+                <option value="12px">12px</option>
+                <option value="14px">14px</option>
+                <option value="16px">16px</option>
+                <option value="18px">18px</option>
+                <option value="20px">20px</option>
+                <option value="22px">22px</option>
+                <option value="24px">24px</option>
+                <option value="26px">26px</option>
+                <option value="28px">28px</option>
+                <option value="30px">30px</option>
+                <option value="32px">32px</option>
+                <option value="34px">34px</option>
+                <option value="36px">36px</option>
+                <option value="40px">40px</option>
+                <option value="44px">44px</option>
+                <option value="48px">48px</option>
+            </select>
+            <input type="color" id="fontColor" class="toolbar-item">
+            <button id="bold" class="toolbar-item">B</button>
+            <button id="italic" class="toolbar-item">I</button>
+            <button id="underline" class="toolbar-item">U</button>
+            <select id="textAlign" class="toolbar-item">
+                <option value="left">Izquierda</option>
+                <option value="center">Centro</option>
+                <option value="right">Derecha</option>
+                <option value="justify">Justificado</option>
+            </select>
+            <button id="bulletList" class="toolbar-item">•</button>
+            <select id="lineHeight" class="toolbar-item">
+                <option value="1">Interlineado: 1</option>
+                <option value="1.5">Interlineado: 1.5</option>
+                <option value="2">Interlineado: 2</option>
+                <option value="2.5">Interlineado: 2.5</option>
+                <option value="3">Interlineado: 3</option>
+            </select>
+            <select id="letterSpacing" class="toolbar-item">
+                <option value="0px">Espacio de letras: 0px</option>
+                <option value="1px">Espacio de letras: 1px</option>
+                <option value="2px">Espacio de letras: 2px</option>
+                <option value="3px">Espacio de letras: 3px</option>
+                <option value="4px">Espacio de letras: 4px</option>
+                <option value="5px">Espacio de letras: 5px</option>
+                <option value="6px">Espacio de letras: 6px</option>
+                <option value="7px">Espacio de letras: 7px</option>
+                <option value="8px">Espacio de letras: 8px</option>
+                <option value="9px">Espacio de letras: 9px</option>
+                <option value="10px">Espacio de letras: 10px</option>
+            </select>
+            <select id="wordSpacing" class="toolbar-item">
+                <option value="0px">Espacio de palabras: 0px</option>
+                <option value="5px">Espacio de palabras: 5px</option>
+                <option value="10px">Espacio de palabras: 10px</option>
+                <option value="15px">Espacio de palabras: 15px</option>
+                <option value="20px">Espacio de palabras: 20px</option>
+                <option value="25px">Espacio de palabras: 25px</option>
+                <option value="30px">Espacio de palabras: 30px</option>
+                <option value="35px">Espacio de palabras: 35px</option>
+                <option value="40px">Espacio de palabras: 40px</option>
+                <option value="45px">Espacio de palabras: 45px</option>
+                <option value="50px">Espacio de palabras: 50px</option>
+            </select>
+            <button id="clear" class="toolbar-item">🗑️</button>
+        </div>
+        <div class="editor" contenteditable="true"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
