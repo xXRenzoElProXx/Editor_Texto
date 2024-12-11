@@ -32,5 +32,17 @@ Este proyecto es un **editor de texto interactivo** diseñado para facilitar la 
 ## 🚀 Instalación y uso
 ### 1. Clona el repositorio en tu máquina local:
 ```bash
-git clone https://github.com/DepthDev/Editor-de-Texto.git
+git clone https://github.com/xXRenzoElProXx/Editor_Texto.git
 ```
+### 2. Navega a la carpeta del proyecto:
+```bash
+cd editor_texto
+```
+### 3. 3. Abre el archivo index.html en tu navegador.
+
+## 🧑‍💻 Uso de la aplicación
+* Edición de texto: Escribe directamente en el área del editor.
+* Borrar contenido:
+  * Haz clic en el botón "Borrar".
+  * Si el editor tiene contenido, se solicitará una confirmación antes de eliminarlo.
+  * Si el editor está vacío, aparecerá un mensaje indicando que no hay nada para borrar.
