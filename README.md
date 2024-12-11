@@ -1,7 +1,7 @@
-# ✍️ Editor de Texto Interactivo
+# ✍️ Editor de Texto
 
 ## 📖 Descripción
-Este proyecto es un **editor de texto interactivo** diseñado para facilitar la edición de contenido directamente en la página. Incluye funcionalidades para borrar todo el contenido del editor de forma segura, evitando eliminar accidentalmente texto si el editor está vacío.
+Este proyecto es un **editor de texto** diseñado para facilitar la edición de contenido directamente en la página. Incluye funcionalidades para borrar todo el contenido del editor de forma segura, evitando eliminar accidentalmente texto si el editor está vacío.
 
 ## 🌟 Características
 - **Confirmación antes de borrar**: Solicita una confirmación del usuario antes de eliminar el contenido.
@@ -9,7 +9,7 @@ Este proyecto es un **editor de texto interactivo** diseñado para facilitar la 
 - **Interfaz amigable**: Utiliza la librería **SweetAlert** para proporcionar mensajes y confirmaciones interactivas.
 
 ## 📸 Capturas de pantalla
-![Captura de pantalla del editor](./screenshot.jpeg)
+![Captura de pantalla del editor](./screenshot.png)
 
 ## 🛠️ Tecnologías utilizadas
 <p align="center">
@@ -46,3 +46,12 @@ cd editor_texto
   * Haz clic en el botón "Borrar".
   * Si el editor tiene contenido, se solicitará una confirmación antes de eliminarlo.
   * Si el editor está vacío, aparecerá un mensaje indicando que no hay nada para borrar.
+ 
+## 📂 Estructura de archivos
+```bash
+editor-de-texto/
+├── index.html       # Archivo principal del proyecto.
+├── styles.css       # Hoja de estilos para el diseño visual.
+├── script.js        # Archivo con la lógica de la funcionalidad.
+├── screenshot.png  # Captura de pantalla del editor.
+```
