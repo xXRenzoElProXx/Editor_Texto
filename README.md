@@ -38,7 +38,7 @@ git clone https://github.com/xXRenzoElProXx/Editor_Texto.git
 ```bash
 cd editor_texto
 ```
-### 3. 3. Abre el archivo index.html en tu navegador.
+### 3. Abre el archivo index.html en tu navegador.
 
 ## 🧑‍💻 Uso de la aplicación
 * Edición de texto: Escribe directamente en el área del editor.
