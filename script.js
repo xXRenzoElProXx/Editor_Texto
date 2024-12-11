@@ -41,7 +41,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     clearButton.addEventListener('click', () => {
-        editor.innerHTML = '';
+        if (editor.innerHTML.trim() === '') {
+            swal("El editor está vacío", "No hay nada que borrar.", "info");
+            return;
+        }
+
+        swal({
+            title: "¿Estás seguro?",
+            text: "¿Estás seguro de que quieres borrar todo el contenido?",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        }).then((willDelete) => {
+            if (willDelete) {
+                editor.innerHTML = '';
+            }
+        });
     });
 
     textAlignSelect.addEventListener('change', () => {
